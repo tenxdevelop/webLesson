@@ -2,10 +2,178 @@
 @import "./fonts.css";
 @import "./utils.css";
 
-.test {
-    color: yellow !important;
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #F2F4F7;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-.test {
-    color: red !important;
+.mainHeader {
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+
+.breadcrumbs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 100px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.breadcrumbs h3 {
+    display: inline;
+    color: #2D66EE;
+    margin-left: 20px;
+    text-transform: uppercase;
+    size: 20px;
+}
+
+.breadcrumbs ul {
+    list-style-type: none;
+    color: #2D66EE;
+}
+
+.breadcrumbs ol li {
+    color: #2D66EE;
+}
+
+.breadcrumbs ol li a {
+    color: #2D66EE;
+}
+
+.breadcrumbs li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+}
+
+.breadcrumbs img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.present-article {
+    background-color: #F2F4F7;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 850px;
+}
+
+.present-text {
+    margin: 75px 100px 125px 100px;
+    width: 60%;
+}
+
+
+.present-text h1 {
+    font-size: 48px;
+}
+
+.present-text span {
+    color: #2D66EE;
+}
+
+.present-content {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.present-content h2 {
+    font-size: 18px;
+    padding: 30px 20px;
+}
+
+.present-form form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px 20px;
+}
+
+.present-form label {
+    display: block;
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.present-form input[type="text"],
+.present-form input[type="telephone"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #98A2B3;
+}
+
+.present-form input:focus {
+    outline: none;
+}
+
+
+.present-form input[type="submit"] {
+    background-color: #2D66EE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0 25px;
+}
+
+.present-article-screen {
+    width: 35%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #101828;
+    color: white;
+    margin: 35px 110px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.footer-card-article h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.footer-card { 
+    margin-top: -25px;
+}
+
+.footer-element {
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.footer-element h3 {
+    font-size: 16px;
+}
+
+.footer-element-figure h4 {
+    color: #98A2B3;
+    font-size: 14px;
+}
+.footer-element-figure img {
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.footer-figure h4 {
+    font-size: 13px;
+    margin-bottom: 30px;
 }
